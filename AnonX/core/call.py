@@ -31,8 +31,7 @@ from AnonX.utils.database import (add_active_chat,
                                        remove_active_chat,
                                        remove_active_video_chat)
 from AnonX.utils.exceptions import AssistantErr
-from AnonX.utils.inline.play import (stream_markup,
-                                          telegram_markup)
+from AnonX.utils.inline.play import (stream_markup,telegram_markup)
 from AnonX.utils.stream.autoclear import auto_clean
 from AnonX.utils.thumbnails import gen_thumb
 
